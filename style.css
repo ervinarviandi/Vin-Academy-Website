@@ -11,7 +11,7 @@ Body {
   /* box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); */
 }
 
-.main-nav {
+/* .main-nav {
   background-color: #6d9186;
 }
 
@@ -23,7 +23,7 @@ Body {
 
 .navbar.scrolled a.nav-link {
   color: #666;
-}
+} */
 
 .navbar .tombol {
   background-color: #f8b422;
@@ -41,7 +41,7 @@ Body {
 
 .navbar-brand {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 28px;
 }
 
 /* Jumbotron */
@@ -267,6 +267,20 @@ Body {
 
 /* Desktop Version */
 @media (min-width: 992px) {
+  .main-nav {
+    background-color: #6d9186;
+  }
+
+  .navbar.scrolled {
+    background-color: #fff;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px -10px 30px #666;
+  }
+
+  .navbar.scrolled a.nav-link {
+    color: #666;
+  }
+
   .navbar-brand {
     font-size: 32px;
     font-size: 700;
