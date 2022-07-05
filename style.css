@@ -108,9 +108,6 @@ Body {
   /* background-color: #f8b422; */
   background-color: #6d9186;
   color: #fff;
-  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.12);
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
 }
 
 .featured .card img {
@@ -154,6 +151,7 @@ Body {
 
 .handbook img {
   margin-top: 120px;
+  display: none;
 }
 .star {
   position: relative;
@@ -214,6 +212,7 @@ Body {
 .belajar img {
   width: 400px;
   margin-top: 170px;
+  display: none;
 }
 
 /* akhir section belajar */
@@ -278,6 +277,16 @@ Body {
     font-size: 52px;
   }
   .jumbotron img {
+    display: block;
+  }
+
+  /* handbook */
+  .handbook img {
+    display: block;
+  }
+
+  /* belajar */
+  .belajar img {
     display: block;
   }
 }
