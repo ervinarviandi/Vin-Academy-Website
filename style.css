@@ -40,8 +40,8 @@ Body {
 }
 
 .navbar-brand {
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 /* Jumbotron */
@@ -267,6 +267,10 @@ Body {
 
 /* Desktop Version */
 @media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 32px;
+    font-size: 700;
+  }
   .jumbotron {
     text-align: left;
   }
